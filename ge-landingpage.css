@@ -1,0 +1,37 @@
+:root {
+    --preto: #000000;
+    --verde-s: #2E9E25;
+    --verde-c: #8ba888;
+    --verde-e: #063D00;
+    --amarelo: #ffea00;
+
+}
+
+body {
+    background-image: linear-gradient(to right, var(--preto), var(--verde-e));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+div.principal{
+    margin-top: 25vh;
+    margin-left: 200px;
+    max-width: 30vw;
+}
+
+img[src="logo-GE.png"] {
+  width: 450px;
+}
+
+h3{
+    color: var(--verde-s);
+    font-family: helvetica, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
