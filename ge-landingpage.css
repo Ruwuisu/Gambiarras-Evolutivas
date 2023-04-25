@@ -8,7 +8,8 @@
 }
 
 body {
-    background-image: linear-gradient(to right, var(--preto), var(--verde-e));
+    /* background-image: linear-gradient(to right, var(--preto), var(--verde-e)); */
+    background-color: var(--preto);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -28,12 +29,13 @@ div.principal{
 }
 
 img[src="logo-GE.png"] {
-  width: 450px;
+    width: 450px;
 }
 
-h3{
+h1{
     color: var(--verde-s);
     font-family: helvetica, sans-serif;
+    font-size: 1.2rem;
 }
 
 body, html {
@@ -52,11 +54,14 @@ a{
     color: var(--verde-s);
     background-color: var(--preto);
     border-radius: 15px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    font-family: helvetica, sans-serif;
+    border: 2px solid var(--verde-s);
 }
 
 .principal, .categorias, .coluna{
