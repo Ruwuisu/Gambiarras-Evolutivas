@@ -23,7 +23,7 @@
 
 body {
     /*background-color: var(--verde-e);*/
-     background-image: url("fundo.png");
+     background-image: url("img/fundo.png");
     background-repeat: repeat;
     background-size: cover;
     width: 100vw;
@@ -155,7 +155,7 @@ footer{
 }
 
 
-img[src="footer.png"] {
+img[src="img/footer.png"] {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
