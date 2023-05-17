@@ -18,73 +18,7 @@ body {
     overflow-y: hidden;
 }
 
-
-@media only screen and (min-width: 601px) {
-  /* Insira seus estilos para desktop aqui */
-  
-    main{
-    display: flex;
-}
-
-div.principal{
-    margin-top: 25vh;
-    width: 35%;
-    margin-right: 10px;
-}
-
-img[src="logo-GE.png"] {
-    width: 450px;
-}
-
-h1{
-    color: var(--verde-s);
-    font-family: helvetica, sans-serif;
-    font-size: 1.2rem;
-}
-
-body, html {
-    height: 100%;
-}
-
-.categorias{
-    width: 30%;
-    margin-top: 25vh;
-    margin-right: 5%;
-}
-
-a{
-    display: flex;
-    flex-direction: column;
-    color: var(--verde-s);
-    background-color: var(--preto);
-    border-radius: 15px;
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 10px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    text-decoration: none;
-    font-family: helvetica, sans-serif;
-    border: 2px solid var(--verde-s);
-}
-
-.principal, .categorias, .coluna{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.coluna{
-    width: 1%;
-}
-    
-}
-
-
-
-
-@media only screen and (max-width: 600px) {
-    
-    main{
+main{
     /* display: flex; */
 }
 
@@ -95,7 +29,7 @@ div.principal{
 }
 
 img[src="logo-GE.png"] {
-    display: none;
+    width: 450px;
 }
 
 h1{
@@ -136,8 +70,15 @@ a{
 }
 
 .coluna{
-    display:none;
+    display: none;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    
+
     
   }
+}
 
